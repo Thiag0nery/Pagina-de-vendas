@@ -1,0 +1,109 @@
+html,body{
+    height: 100%;
+}
+.container-img-fundo{
+    width: 100%;
+    height:88.2vh;
+}
+li.nav-item a.nav-link{
+    color: white!important;
+}
+header.bg-secondary{
+    background-color: black!important;
+}
+.img-fundo{
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url('../imagens/_Logims/pexels-artem-beliaikin-2447043.jpg');
+}
+li.nav-item:hover{
+    background-color: rgba(226, 222, 222, 0.116);
+    transition: .3s;
+    color: black;
+    font-weight: 490;
+}
+a.nav-link{
+    font-size: 1.6em;
+}
+.borda{
+    border: 1px solid black;
+    height: 21rem;
+    border-radius: 8px;
+    margin: 0 10px 0 10px;
+}
+/** SECTION LOGIN **/
+.container-log{
+    width: 50%;
+    height: 27rem;
+    padding: 10px 15px;
+    border-radius: 2%;
+    transition: 0.5s;
+    background-color: rgba(204, 204, 204, 0.938);
+    box-shadow: 0 0 1rem black;
+}
+.container-log:hover{
+    background-color: rgba(221, 218, 218, 0.973);
+    box-shadow: 0 0 1.5rem black;
+}
+
+    /*  FORM */
+.pg-form{
+    padding-top: 25px;
+}
+#Email-login, #Senha-login{
+    width: 100%;
+    margin-top: 6px;
+}
+#Email-login{
+    margin-bottom: 8px;
+}
+label.style-label{
+    font-size: 1.3em;
+
+}
+input#Email-login[type=email]{
+    padding: 4px 5px 5px 10px;
+    border: 1px solid black;
+    height: 2.5rem;
+    border-radius: 4px;
+    outline: none;
+}
+input#Email-login[type=email]:focus{
+    box-shadow: 0 0 0.2rem black;
+}
+input#Senha-login[type=password]{
+    padding: 4px 5px 5px 10px;
+    border: 1px solid black;
+    height: 2.5rem;
+    border-radius: 4px;
+    outline: none;
+}
+input#Senha-login[type=password]:focus{
+    box-shadow: 0 0 0.2rem black;
+}
+.container-button{
+    margin-top: 10px;
+}
+.cadrastro-link{
+    margin-top: 30px;
+}
+/* formas */
+a.style-a{
+    padding: 5px;
+    text-decoration: none;
+}
+.text-span{
+    color: white;
+}
+.img-container{
+    background-color: rgb(11, 104, 65);
+    height: 2.7rem;
+    padding: 5px;
+    border-radius: 8px;
+}   
+img.img-style{
+    width: 35px;
+    
+}
